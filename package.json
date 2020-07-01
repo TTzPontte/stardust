@@ -19,18 +19,31 @@
     "README.md"
   ],
   "scripts": {
+    "c": "git-cz",
     "start": "echo \"running start script\"",
     "build": "echo \"running build script\"",
     "test-lint": "echo \"running test-lint script\"",
     "test-unit": "echo \"running test-unit script\""
   },
+  "dependencies": {},
+  "devDependencies": {
+    "@commitlint/cli": "^9.0.1",
+    "@commitlint/config-conventional": "^9.0.1",
+    "commitizen": "^4.1.2",
+    "commitlint": "^9.0.1",
+    "husky": "^4.2.5"
+  },
+  "peerDependencies": {},
+  "optionalDependencies": {},
   "husky": {
     "hooks": {
+      "prepare-commit-msg": "exec < /dev/tty && git-cz || true",
       "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
     }
   },
-  "dependencies": {},
-  "devDependencies": {},
-  "peerDependencies": {},
-  "optionalDependencies": {}
+  "config": {
+    "commitizen": {
+      "path": "cz-conventional-changelog"
+    }
+  }
 }
