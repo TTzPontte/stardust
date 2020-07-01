@@ -1,4 +1,4 @@
-name: promote-prod-project-name
+name: promote-prod-stardust
 
 on:
   push:

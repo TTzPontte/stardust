@@ -1,4 +1,4 @@
-name: promote-stag-project-name
+name: promote-stag-stardust
 
 on:
   push:
