@@ -19,6 +19,7 @@
     "README.md"
   ],
   "scripts": {
+    "commit": "git-cz",
     "start": "echo \"running start script\"",
     "build": "echo \"running build script\"",
     "test-lint": "echo \"running test-lint script\"",
