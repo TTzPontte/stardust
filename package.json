@@ -1,17 +1,17 @@
 {
-  "name": "@pontte/template-front-end",
+  "name": "@pontte/stardust",
   "version": "0.0.1",
   "private": true,
   "description": "",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/pontte/template-front-end.git"
+    "url": "git+https://github.com/pontte/stardust.git"
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/pontte/template-front-end/issues"
+    "url": "https://github.com/pontte/stardust/issues"
   },
-  "homepage": "https://github.com/pontte/template-front-end#readme",
+  "homepage": "https://github.com/pontte/stardust#readme",
   "main": "",
   "files": [
     "LICENSE",
@@ -19,7 +19,6 @@
     "README.md"
   ],
   "scripts": {
-    "c": "git-cz",
     "start": "echo \"running start script\"",
     "build": "echo \"running build script\"",
     "test-lint": "echo \"running test-lint script\"",
@@ -37,7 +36,7 @@
   "optionalDependencies": {},
   "husky": {
     "hooks": {
-      "prepare-commit-msg": "exec < /dev/tty && git-cz || true",
+      "prepare-commit-msg": "exec < /dev/tty && git cz || true",
       "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
     }
   },
