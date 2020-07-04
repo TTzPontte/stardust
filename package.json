@@ -1,8 +1,10 @@
 {
   "name": "@pontte/stardust",
   "version": "0.0.1",
-  "private": true,
   "description": "",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/pontte/stardust.git"
@@ -33,8 +35,21 @@
     "commitlint": "^9.0.1",
     "husky": "^4.2.5"
   },
-  "peerDependencies": {},
-  "optionalDependencies": {},
+  "peerDependencies": {
+    "@commitlint/cli": "^9.0.1",
+    "@commitlint/config-conventional": "^9.0.1",
+    "@semantic-release/changelog": "^5.0.1",
+    "@semantic-release/git": "^9.0.0",
+    "commitizen": "^4.1.2",
+    "commitlint": "^9.0.1",
+    "husky": "^4.2.5",
+    "semantic-release": "^17.1.1"
+  },
+  "optionalDependencies": {
+    "@semantic-release/changelog": "^5.0.1",
+    "@semantic-release/git": "^9.0.0",
+    "semantic-release": "^17.1.1"
+  },
   "config": {
     "commitizen": {
       "path": "cz-conventional-changelog"
