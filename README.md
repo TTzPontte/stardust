@@ -1,6 +1,6 @@
-# Stardust Front-End Template
+# Stardust Front-End Template ✨
 
-Stardust is the next generation of projects of the @pontte. It brings you a entire configuration to start a new project in a button click distance.
+Stardust is the next generation of projects of the @pontte. It brings you an entire configuration to start a new project in a button click distance.
 
 ![](https://github.com/pontte/stardust/workflows/promote-prod-from-preprod-branch/badge.svg)
 
